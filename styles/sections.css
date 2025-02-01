@@ -1,0 +1,58 @@
+#intro {
+  background-image: url(/assets/backgrounds/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  place-items: center;
+
+  .avatar {
+    height: 112px;
+    width: 112px;
+    margin-block: 120px 56px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .tags {
+    display: flex;
+    gap: 16px;
+  }
+
+  .tags figure:nth-child(4) {
+    width: 138px;
+  }
+
+  figure {
+    display: flex;
+    width: 114px;
+    height: 40px;
+
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    border-radius: 999px;
+    background-color: var(--gray-300);
+
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  img:last-child {
+    margin-top: 100px;
+  }
+}

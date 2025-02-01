@@ -24,7 +24,17 @@
   --title-lg: 800 56px/120% var(--font-family-asap);
   --title-md: 800 24px/120% var(--font-family-asap);
   --title-sm: 800 16px/120% var(--font-family-asap);
-  --subtitle: 400 20px/120% var(-font-family-inconsolata);
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-maven-pro);
   --text-sm: 400 14px/140% var(--font-family-maven-pro);
+}
+
+h1,
+h2 {
+  font: inherit;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 750px;
 }

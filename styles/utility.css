@@ -1,0 +1,46 @@
+/* utility-first */
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+}
+
+.title-lg {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+.title-md {
+  font: var(--title-md);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.text-red {
+  color: var(--red);
+}
