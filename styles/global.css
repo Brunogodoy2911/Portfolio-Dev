@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-inconsolata: "Inconsolata", sans-serif;
+  --font-family-maven-pro: "Maven Pro", sans-serif;
+  --title-lg: 800 56px/120% var(--font-family-asap);
+  --title-md: 800 24px/120% var(--font-family-asap);
+  --title-sm: 800 16px/120% var(--font-family-asap);
+  --subtitle: 400 20px/120% var(-font-family-inconsolata);
+  --text-md: 400 16px/140% var(--font-family-maven-pro);
+  --text-sm: 400 14px/140% var(--font-family-maven-pro);
+}
