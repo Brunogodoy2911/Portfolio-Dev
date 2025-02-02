@@ -107,6 +107,7 @@
 
   .card:hover {
     border-color: var(--gray-400);
+    cursor: pointer;
   }
 }
 
@@ -119,12 +120,9 @@
 
   header {
     margin-block: 88px 56px;
+    gap: 8px;
 
     place-items: center;
-  }
-
-  h2 {
-    margin-bottom: 8px;
   }
 
   h1 {
@@ -134,6 +132,7 @@
   .card {
     width: 280px;
     height: 155px;
+
     padding: 20px;
 
     border: 2px solid var(--gray-200);
@@ -145,6 +144,174 @@
 
     h1 {
       margin-bottom: 8px;
+    }
+  }
+}
+
+#contact {
+  min-height: 787px;
+
+  background-image: url(/assets/backgrounds/Background_Contacts.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  place-items: center;
+  row-gap: 16px;
+
+  header {
+    margin-block: 128px 48px;
+
+    place-items: center;
+
+    gap: 8px;
+  }
+
+  .social-button-linkedin {
+    height: 68px;
+    width: 400px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    border: 1.5px solid transparent;
+
+    span {
+      align-items: center;
+      gap: 12px;
+
+      span {
+        width: 28px;
+        height: 28px;
+        background-image: url(../assets/icons/LinkedinLogo.svg);
+
+        transition: all ease-in-out 0.3s;
+      }
+    }
+    transition: all ease-in-out 0.3s;
+  }
+
+  .social-button-linkedin:hover {
+    border-color: var(--blue);
+    cursor: pointer;
+
+    span span {
+      background-image: url(../assets/icons/LinkedinLogoHover.svg);
+    }
+  }
+
+  .social-button-instagram {
+    height: 68px;
+    width: 400px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    border: 1.5px solid transparent;
+
+    span {
+      align-items: center;
+      gap: 12px;
+
+      span {
+        width: 28px;
+        height: 28px;
+        background-image: url(../assets/icons/InstagramLogo.svg);
+
+        transition: all ease-in-out 0.3s;
+      }
+    }
+    transition: all ease-in-out 0.3s;
+  }
+
+  .social-button-instagram:hover {
+    border-color: var(--blue);
+    cursor: pointer;
+
+    span span {
+      background-image: url(../assets/icons/InstagramLogoHover.svg);
+    }
+  }
+
+  .social-button-github {
+    height: 68px;
+    width: 400px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    border: 1.5px solid transparent;
+
+    span {
+      align-items: center;
+      gap: 12px;
+
+      span {
+        width: 28px;
+        height: 28px;
+        background-image: url(../assets/icons/GithubLogo.svg);
+
+        transition: all ease-in-out 0.3s;
+      }
+    }
+    transition: all ease-in-out 0.3s;
+  }
+
+  .social-button-github:hover {
+    border-color: var(--blue);
+    cursor: pointer;
+
+    span span {
+      background-image: url(../assets/icons/GithubLogoHover.svg);
+    }
+  }
+
+  .social-button-e-mail {
+    height: 68px;
+    width: 400px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    border: 1.5px solid transparent;
+
+    span {
+      align-items: center;
+      gap: 12px;
+
+      span {
+        width: 28px;
+        height: 28px;
+        background-image: url(../assets/icons/EnvelopeSimple.svg);
+
+        transition: all ease-in-out 0.3s;
+      }
+    }
+    transition: all ease-in-out 0.3s;
+  }
+
+  .social-button-e-mail:hover {
+    border-color: var(--blue);
+    cursor: pointer;
+
+    span span {
+      background-image: url(../assets/icons/EnvelopeSimpleHover.svg);
     }
   }
 }

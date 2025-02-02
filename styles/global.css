@@ -27,6 +27,7 @@
   --subtitle: 400 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-maven-pro);
   --text-sm: 400 14px/140% var(--font-family-maven-pro);
+  --text-medium: 500 16px/140% var(--font-family-maven-pro);
 }
 
 h1,
