@@ -1,10 +1,16 @@
 #intro {
+  min-height: 750px;
+
   background-image: url(/assets/backgrounds/Background_Intro.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   place-items: center;
+
+  header {
+    place-items: center;
+  }
 
   .avatar {
     height: 112px;
@@ -54,5 +60,91 @@
 
   img:last-child {
     margin-top: 100px;
+  }
+}
+
+#projects {
+  min-height: 917px;
+
+  background-color: var(--gray-200);
+
+  place-items: center;
+
+  h2 {
+    text-align: center;
+    margin-block: 72px 8px;
+  }
+
+  h1 {
+    margin-bottom: 56px;
+  }
+
+  .card {
+    width: 330px;
+    height: 280px;
+
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    border: 1.5px solid transparent;
+
+    padding: 12px 12px 17px 12px;
+
+    h3 {
+      margin-block: 24px 8px;
+    }
+
+    img {
+      width: 306px;
+      height: 156px;
+
+      border-radius: 8px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+
+    transition: all ease-in-out 0.3s;
+  }
+
+  .card:hover {
+    border-color: var(--gray-400);
+  }
+}
+
+#services {
+  min-height: 480px;
+
+  background-color: var(--gray-100);
+
+  place-items: center;
+
+  header {
+    margin-block: 88px 56px;
+
+    place-items: center;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    white-space: nowrap;
+  }
+
+  .card {
+    width: 280px;
+    height: 155px;
+    padding: 20px;
+
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
   }
 }

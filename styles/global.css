@@ -30,11 +30,13 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font: inherit;
 }
 
 .container {
   max-width: 100%;
-  min-height: 750px;
+  display: flex;
+  justify-content: center;
 }
